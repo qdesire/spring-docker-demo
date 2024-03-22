@@ -1,0 +1,16 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  info:
+    env:
+      enabled: true
+  application:
+    name: spring-food
+    description: A food website.
+    author: Quentin Désiré
+    version: 1.0
+spring:
+  profiles:
+    active: dev
